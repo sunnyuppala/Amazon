@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    font-family:arial;
+    border:border-box;
+}
+.navbar{
+    height:50px;
+    background-color: #0F1111;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.nav-logo{
+    height: 50px;
+    width:150px;
+}
+.logo
+{
+    height: 49px;
+    width:150px;
+    background-size: cover;
+    background-image: url("/html_projects/amazonclone/reallogo.png");
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.address{
+    height: 50px;
+    width:80px;
+}
+.deliver-icon{
+    height: 18px;
+    width:15px;
+}
+.deliver{
+    font-size: 0.88rem;
+    position: relative;
+    left:18px;
+    color:#cccccc;
+    top:6px;
+}
+.India{
+    position: relative;
+    left:18px;
+    bottom:13px;
+}
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15px;
+    width:470px;
+   
+
+}
+select{
+    height: 27px;
+    width:45px;
+    background-color:#d1d4d4;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.searchbar{
+    height: 22px;
+    width: 450px;
+
+}
+.searchicon{
+    background-color: rgb(223, 163, 0);
+    height:28px;
+    width:30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 0.85rem;
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+.sign{
+    position: relative;
+    top:5px;
+
+}
+span{
+    font-size: 12px;
+}
+.acc{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.cart{
+    height: 50px;
+    width:89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carticon{
+    font-size: 30px;
+}
+.tcart{
+    font-weight: 600;
+    display: flex;
+    left:1px;
+    top: 6px;
+}
+.panel{
+    height: 40px;
+    display:flex;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    
+}
+.panel-opp p{ 
+    display: inline;
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-left: 30px;
+    
+    
+}
+.panel-opp{
+    width: 70%;
+    display: flex;
+    
+}
+.panel-deals p{
+    
+    font-size: 0.9rem;
+    font-weight: 600;
+   
+}
+p{
+    border:2px solid transparent;
+}
+.all{
+    position: relative;
+    left: 15px;
+}
+p:hover{
+   
+    border:1px solid white;
+}
+.hero-section{
+    height:400px;
+    background-image: url("./herosection.jpg");
+    background-size: cover;
+   display: flex;
+   justify-content: center ;
+   align-items: flex-end;
+    
+}
+.para
+{
+    height:40px;
+    color:rgb(0, 0, 0);
+    background-color: white;
+    font-size:1rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0px 15px 15px 15px;
+    width: 100%;
+}
+.para a{
+    color:#007185;
+    text-decoration: none;
+}
+.hero-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("/html_projects/amazonclone/bg.jpg");
+}
+.box
+{
+    height:350px;
+    width:23%;
+    margin-top:15px;
+    background-color: white;
+    padding: opx 30px 20px 30px 20px;
+
+}
+
+.box p{
+    position: relative;
+    top:10px;
+    left:10px;
+}
+.box p a{
+    text-decoration: none;
+    color:#007185;
+}
+footer{
+    margin-top: 20px;;
+}
+.one{
+    height:40px;
+    background-color: #37475a;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.two {
+   background-color: #222f3d;
+   height:400px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.two ul a{
+   display: block;
+   color: #dddddd;
+   padding-top: 5px;
+    
+}
+.two ul p{
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+     border: 0px;
+ }
+.three{
+    background-color:#222f3d ;
+    border-top:0.5px solid white;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoo
+{
+    height: 49px;
+    width:150px;
+    background-size: cover;
+    background-image: url("/html_projects/amazonclone/reallogo.png");
+}
+.last{
+    height:40px;
+    background-color: #222f3d ;
+    border-top:0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last p{
+    color:white;
+    font-size: 0.7rem;
+}
